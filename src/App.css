@@ -60,16 +60,18 @@
 
 
 #myDiv{
-  border: 2px solid black;
+  border: 2px solid red;
   width: 680px;
   height: 400px;
   margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+  border-radius: 15px;
 }
 
 #countrUserId{
   position: absolute;
-  overflow-x: scroll;
-  white-space: nowrap;
+  overflow-y: scroll;
+  white-space: pre-wrap;
   border: 2px solid red;
   margin: 15px;
   padding-left: 10px;
@@ -91,8 +93,6 @@
 
 #settingFormsId{
   position: absolute;
-  overflow-y: scroll;
-  white-space: pre-wrap;
   border: 2px solid red;
   margin-top: 15px;
   padding-left: 10px;
